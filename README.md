@@ -27,3 +27,7 @@ npm mongoose
 npm i mongoose-encryption
 
 npm i dotenv
+
+
+for Hashing
+npm i md5
