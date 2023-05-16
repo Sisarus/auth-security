@@ -16,12 +16,9 @@ Authentication and security
 * Express
 * EJS
 * [Mongoose](https://www.npmjs.com/package/mongoose) - MongoDB
+* [bcrypt](https://www.npmjs.com/package/bcrypt)
 
 ## Setup
-To run this project, install it locally using npm:
-```
-git clone https://github.com/Sisarus/react-redux-db.git
-```
 
 Open project folder and run terminal:
 ```
@@ -39,7 +36,7 @@ npm run dev
 ```
 
 Run database: 
-[Using Mongoose](https://www.mongodb.com/try/download/community) [How run from shell](https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
+[Using Mongoose](https://www.mongodb.com/try/download/community) How run from [shell](https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
 
 Command for shell:
 ```
