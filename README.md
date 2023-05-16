@@ -39,7 +39,9 @@ npm run dev
 ```
 
 Run database: 
-[Using Mongoose](https://www.mongodb.com/try/download/community https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
+[Using Mongoose](https://www.mongodb.com/try/download/community) [How run from shell](https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
+
+Command for shell:
 ```
 mongod
 ```
