@@ -1,25 +1,64 @@
 # auth-security
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Project Links](#project-links)
+* [Project Status](#project-status)
+
+## General info
+
+Authentication and security
 
 
-### For first time
+## Technologies
+* Express
+* EJS
+* [Mongoose](https://www.npmjs.com/package/mongoose) - MongoDB
+
+## Setup
+To run this project, install it locally using npm:
+```
+git clone https://github.com/Sisarus/react-redux-db.git
+```
+
+Open project folder and run terminal:
+```
 npm install
+```
 
-### For run
-npm run
+Run 
+```
+npm start
+```
 
-### Using Mongoose https://www.mongodb.com/try/download/community https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294
-mongod 
+Run Nodemon dev
+```
+npm run dev
+```
 
-### For run Nodemon
-nodemon app.js
+Run database: 
+[Using Mongoose](https://www.mongodb.com/try/download/community https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
+```
+mongod
+```
 
-## Start
+## Project Links
+* Opens to [localhost](http://localhost:3000/)
+
+
+## Project Status
+Project is: in progress
+
+<!--complete / no longer being worked on. If you are no longer working on it, provide reasons why. -->
+
+<!-- ## Start new project
 
 npm init -y 
 
-### Installed packages
-
+### Installed packages use later
+```
 npm i express ejs body-parser
 
 npm mongoose
@@ -27,7 +66,9 @@ npm mongoose
 npm i mongoose-encryption
 
 npm i dotenv
-
+```
 
 for Hashing
+```
 npm i md5
+``` -->
