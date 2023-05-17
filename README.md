@@ -54,7 +54,7 @@ npm install
 ```
 CLIENT_ID=(Google OAuth 2.0 client ID)
 CLIENT_SECRET=(Google OAuth 2.0 client secret)
-SESSION_SECREt=(Secret key for session encryption)
+SESSION_SECRET=(Secret key for session encryption)
 ```
 
 5. Open your web browser and visit http://localhost:3000 to access the application.
