@@ -37,23 +37,23 @@ This is a web application that provides user authentication and security feature
 ```
 git clone https://github.com/sisarus/auth-security.git
 ```
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 ```
 cd auth-security
 ```
-1. Install dependencies: 
+3. Install dependencies: 
 ```
 npm install
 ```
 
-1. Create a .env file in the project root and add the following environment variables. For using client ID and client secret you need API key from [Google](https://console.cloud.google.com/apis/dashboard?project=secret-386912)
+4. Create a .env file in the project root and add the following environment variables. For using client ID and client secret you need API key from [Google](https://console.cloud.google.com/apis/dashboard?project=secret-386912)
 * CLIENT_ID: Google OAuth 2.0 client ID
 * CLIENT_SECRET: Google OAuth 2.0 client secret
 * SESSION_SECRET: Secret key for session encryption
 
-1. Open your web browser and visit http://localhost:3000 to access the application.
+5. Open your web browser and visit http://localhost:3000 to access the application.
 
-1. Run database: 
+6. Run database: 
 [Using Mongoose](https://www.mongodb.com/try/download/community) How run from [shell](https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
 
 Command for shell:
@@ -61,19 +61,38 @@ Command for shell:
 mongod
 ```
 
-1. Start the application:
+7. Start the application:
 ```
 npm start
 ```
-or deveploment version:
+or run deveploment version:
 ```
 npm run dev
 ```
 
-1. Open your web browser and visit http://localhost:3000 to access the application.
+8. Open your web browser and visit http://localhost:3000 to access the application.
 
-## Project Links
-* Opens to [localhost](http://localhost:3000/)
+
+## Usage
+* Register a new account by clicking on the "Register" link on the home page and providing a username and password.
+* Log in to your account using the registered credentials or by clicking on the "Login with Google" button to authenticate using your Google account.
+* After logging in, you can submit your secrets on the "Submit" page. These secrets will be visible to other authenticated users on the "Secrets" page.
+* Click on the "Logout" button to log out of your account.
+
+## Contributing
+Contributions are welcome! If you have any ideas or improvements, feel free to submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+This application was developed as part of a tutorial or learning resource. Special thanks to the authors or creators of those resources.
+
+# Contact
+If you have any questions or suggestions, please feel free to contact me at alisa.luoma@hotmail.fi
+
+
+
 
 <!--complete / no longer being worked on. If you are no longer working on it, provide reasons why. -->
 
