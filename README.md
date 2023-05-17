@@ -16,7 +16,7 @@ Authentication and security
 * Express
 * EJS
 * [Mongoose](https://www.npmjs.com/package/mongoose) - MongoDB
-* [bcrypt](https://www.npmjs.com/package/bcrypt)
+<!-- * [bcrypt](https://www.npmjs.com/package/bcrypt) -->
 * [passport-google-oauth20](https://www.passportjs.org/packages/passport-google-oauth20/)
 
 ## Setup
