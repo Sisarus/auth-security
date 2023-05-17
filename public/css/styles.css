@@ -22,7 +22,7 @@ body {
   text-align: center;
   position: relative;
   padding: 10px 5px;
-  box-shadow: 0 30px 60px 0;
+  box-shadow: 0 5px 5px 0 #888888;
 }
  
 .lead{

@@ -17,6 +17,7 @@ Authentication and security
 * EJS
 * [Mongoose](https://www.npmjs.com/package/mongoose) - MongoDB
 * [bcrypt](https://www.npmjs.com/package/bcrypt)
+* [passport-google-oauth20](https://www.passportjs.org/packages/passport-google-oauth20/)
 
 ## Setup
 
@@ -41,6 +42,13 @@ Run database:
 Command for shell:
 ```
 mongod
+```
+
+For using client ID and client secret you need API key from [Google](https://console.cloud.google.com/apis/dashboard?project=secret-386912)
+Create to root folder .env
+```
+CLIENT_ID=(YOUR GOOGLE API)
+CLIENT_SECRET=(YOUR GOOGLE API)
 ```
 
 ## Project Links
