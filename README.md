@@ -51,9 +51,11 @@ npm install
 ```
 
 4. Create a .env file in the project root and add the following environment variables. For using client ID and client secret you need API key from [Google](https://console.cloud.google.com/apis/dashboard?project=secret-386912)
-* CLIENT_ID: Google OAuth 2.0 client ID
-* CLIENT_SECRET: Google OAuth 2.0 client secret
-* SESSION_SECRET: Secret key for session encryption
+```
+CLIENT_ID=(Google OAuth 2.0 client ID)
+CLIENT_SECRET=(Google OAuth 2.0 client secret)
+SESSION_SECREt=(Secret key for session encryption)
+```
 
 5. Open your web browser and visit http://localhost:3000 to access the application.
 
@@ -67,7 +69,7 @@ mongod
 
 7. Start the application:
 ```
-npm start
+npm run dev
 ```
 or run deveploment version:
 ```
