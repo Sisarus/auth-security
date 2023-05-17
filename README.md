@@ -71,10 +71,6 @@ mongod
 ```
 npm run dev
 ```
-or run deveploment version:
-```
-npm run dev
-```
 
 8. Open your web browser and visit http://localhost:3000 to access the application.
 
