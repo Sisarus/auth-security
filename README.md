@@ -2,41 +2,58 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
 * [Setup](#setup)
 * [Project Links](#project-links)
-* [Project Status](#project-status)
 
 ## General info
 
-Authentication and security
+This is a web application that provides user authentication and security features. Users can register, log in, and submit secrets. Secrets are visible to authenticated users only.
 
+## Features
 
-## Technologies
-* Express
-* EJS
-* [Mongoose](https://www.npmjs.com/package/mongoose) - MongoDB
+* User registration: Users can create an account by providing a username and password.
+* User login: Registered users can log in with their credentials.
+* OAuth authentication: Users can authenticate using their Google account.
+* Submit secrets: Authenticated users can submit their secrets, which are visible to other authenticated users.
+* Logout: Users can log out of their accounts.
+
+## Technologies Used
+
+* Node.js: Backend JavaScript runtime environment.
+* Express.js: Web application framework for Node.js.
+* MongoDB: NoSQL database for storing user information and secrets.
+* Mongoose: Object Data Modeling (ODM) library for MongoDB.
+* Passport: Authentication middleware for Node.js.
+* EJS: Embedded JavaScript templates for rendering views.
+* Google OAuth 2.0: OAuth 2.0 authentication for Google accounts.
 <!-- * [bcrypt](https://www.npmjs.com/package/bcrypt) -->
-* [passport-google-oauth20](https://www.passportjs.org/packages/passport-google-oauth20/)
 
 ## Setup
 
-Open project folder and run terminal:
+1. Clone the repository:
+
+```
+git clone https://github.com/sisarus/auth-security.git
+```
+1. Navigate to the project directory:
+```
+cd auth-security
+```
+1. Install dependencies: 
 ```
 npm install
 ```
 
-Run 
-```
-npm start
-```
+1. Create a .env file in the project root and add the following environment variables. For using client ID and client secret you need API key from [Google](https://console.cloud.google.com/apis/dashboard?project=secret-386912)
+* CLIENT_ID: Google OAuth 2.0 client ID
+* CLIENT_SECRET: Google OAuth 2.0 client secret
+* SESSION_SECRET: Secret key for session encryption
 
-Run Nodemon dev
-```
-npm run dev
-```
+1. Open your web browser and visit http://localhost:3000 to access the application.
 
-Run database: 
+1. Run database: 
 [Using Mongoose](https://www.mongodb.com/try/download/community) How run from [shell](https://www.mongodb.com/docs/mongodb-shell/?_ga=2.189154979.982079961.1683104589-1260333011.1683100294)
 
 Command for shell:
@@ -44,19 +61,19 @@ Command for shell:
 mongod
 ```
 
-For using client ID and client secret you need API key from [Google](https://console.cloud.google.com/apis/dashboard?project=secret-386912)
-Create to root folder .env
+1. Start the application:
 ```
-CLIENT_ID=(YOUR GOOGLE API)
-CLIENT_SECRET=(YOUR GOOGLE API)
+npm start
 ```
+or deveploment version:
+```
+npm run dev
+```
+
+1. Open your web browser and visit http://localhost:3000 to access the application.
 
 ## Project Links
 * Opens to [localhost](http://localhost:3000/)
-
-
-## Project Status
-Project is: in progress
 
 <!--complete / no longer being worked on. If you are no longer working on it, provide reasons why. -->
 
