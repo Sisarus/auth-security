@@ -5,7 +5,11 @@
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
-* [Project Links](#project-links)
+* [Usage](#Usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
 ## General info
 
